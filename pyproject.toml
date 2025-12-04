@@ -1,0 +1,24 @@
+[project]
+name = "nn-heterogeneous-layer"
+version = "0.1.0"
+description = "Research on the applications of heterogeneous activations in layers with `tensorflow` and the `multi-dense` module."
+readme = "README.md"
+authors = [
+    { name = "psantro", email = "psantro@alu.upo.es" }
+]
+requires-python = ">=3.13"
+dependencies = [
+    "multi-dense",
+    "tensorflow>=2.20.0",
+    "types-tensorflow>=2.18.0.20251008",
+]
+
+[dependency-groups]
+dev = [
+    "ruff>=0.14.8",
+    "uv>=0.9.15",
+]
+
+[tool.uv.sources]
+multi-dense = { git = "https://github.com/psantro/multi-dense.git" }
+
