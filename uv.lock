@@ -776,8 +776,8 @@ wheels = [
 
 [[package]]
 name = "multi-dense"
-version = "1.0.0"
-source = { git = "https://github.com/psantro/multi-dense.git#739f098bf0d651a83659d9479ffcb6e017c01e64" }
+version = "1.1.0"
+source = { git = "https://github.com/psantro/multi-dense.git#bcee20c8152341e0130617736180e11228f8d9c8" }
 dependencies = [
     { name = "tensorflow" },
     { name = "types-tensorflow" },
